@@ -1,0 +1,11 @@
+.box {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--primary-color);
+}
+
+.box-width {
+    width: calc(3 * var(--box-size));
+    height: var(--box-size);
+    background-color: var(--primary-color);
+}
